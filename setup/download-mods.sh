@@ -5,4 +5,4 @@ do
     wget -Pdata/mods/ $line
 done <"$file"
 
-zip -D http/mods.zip data/mods/*.jar
+zip -j http/mods.zip data/mods/*.jar
