@@ -10,6 +10,7 @@ RUN apk add --no-cache -U zip python3
 WORKDIR /setup
 COPY setup .
 COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN ./download-http.sh
 RUN ./download-mods.sh
 WORKDIR /data
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]
