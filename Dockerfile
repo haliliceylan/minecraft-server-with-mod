@@ -8,9 +8,9 @@ ENV EULA=TRUE \
 
 RUN apk add --no-cache -U zip npm
 RUN npm install --silent -g http-server
+COPY docker-entrypoint.sh /docker-entrypoint.sh
 WORKDIR /setup
 COPY setup .
-COPY docker-entrypoint.sh /docker-entrypoint.sh
 RUN ./download-http.sh
 RUN ./download-mods.sh
 WORKDIR /data
