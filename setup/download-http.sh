@@ -2,5 +2,5 @@
 file="http.txt"
 while IFS= read -r line
 do
-    wget -Phttp/ $line
+    wget --content-disposition -Phttp/ $line
 done <"$file"
