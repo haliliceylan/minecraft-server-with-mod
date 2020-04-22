@@ -43,7 +43,3 @@ https://media.forgecdn.net/files/2450/900/Chameleon-1.12-4.1.3.jar
 https://media.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar
 https://media.forgecdn.net/files/2844/115/ActuallyAdditions-1.12.2-r151-2.jar
 https://media.forgecdn.net/files/2492/770/TreeChopper-1.12.2-1.2.4.jar
-https://media.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universal.jar
-https://media.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237.jar
-https://media.forgecdn.net/files/2920/254/astralsorcery-1.12.2-1.10.23.jar
-https://media.forgecdn.net/files/2629/23/Thaumcraft-1.12.2-6.1.BETA26.jar
