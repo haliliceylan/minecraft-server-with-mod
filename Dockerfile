@@ -6,10 +6,12 @@ ENV EULA=TRUE \
     FORGEVERSION=14.23.5.2847 \
     ONLINE_MODE=FALSE
 
-RUN apk add --no-cache -U zip python3
+RUN apk add --no-cache -U zip npm
+RUN npm install --silent -g http-server
+COPY docker-entrypoint.sh /docker-entrypoint.sh
 WORKDIR /setup
 COPY setup .
-COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN ./download-http.sh
 RUN ./download-mods.sh
 WORKDIR /data
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]

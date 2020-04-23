@@ -36,7 +36,6 @@ https://media.forgecdn.net/files/2920/436/RedstoneFlux-1.12-2.1.1.1-universal.ja
 https://media.forgecdn.net/files/2656/683/MobGrindingUtils-0.3.13.jar
 https://media.forgecdn.net/files/2924/320/industrialcraft-2-2.8.197-ex112.jar
 https://media.forgecdn.net/files/2678/374/extrautils2-1.12-1.9.9.jar
-https://media.forgecdn.net/files/2618/630/CodeChickenLib-1.12.2-3.2.2.353-universal.jar
 https://media.forgecdn.net/files/2920/434/CoFHWorld-1.12.2-1.4.0.1-universal.jar
 https://media.forgecdn.net/files/2920/433/CoFHCore-1.12.2-4.6.6.1-universal.jar
 https://media.forgecdn.net/files/2450/900/Chameleon-1.12-4.1.3.jar
@@ -47,5 +46,12 @@ https://media.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universa
 https://media.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237.jar
 https://media.forgecdn.net/files/2920/254/astralsorcery-1.12.2-1.10.23.jar
 https://media.forgecdn.net/files/2629/23/Thaumcraft-1.12.2-6.1.BETA26.jar
+https://media.forgecdn.net/files/2699/705/mowziesmobs-1.5.4.jar
+https://media.forgecdn.net/files/2818/55/twilightforest-1.12.2-3.10.1013-universal.jar
+https://media.forgecdn.net/files/2727/70/Forgelin-1.8.3.jar
+https://media.forgecdn.net/files/2704/186/llibrary-1.7.19-1.12.2.jar
+https://media.forgecdn.net/files/2580/52/tesla-core-lib-1.12.2-1.0.15.jar
+https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+https://media.forgecdn.net/files/2518/667/Baubles-1.12-1.5.2.jar
 https://media.forgecdn.net/files/2699/705/mowziesmobs-1.5.4.jar
 https://media.forgecdn.net/files/2818/55/twilightforest-1.12.2-3.10.1013-universal.jar
