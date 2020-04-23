@@ -13,7 +13,7 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 WORKDIR /setup
 COPY setup .
 RUN ./download-http.sh
-#RUN ./download-mods.sh
+RUN ./download-mods.sh
 WORKDIR /data
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]
 
