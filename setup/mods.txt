@@ -44,10 +44,6 @@ https://media.forgecdn.net/files/2844/115/ActuallyAdditions-1.12.2-r151-2.jar
 https://media.forgecdn.net/files/2492/770/TreeChopper-1.12.2-1.2.4.jar
 https://media.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universal.jar
 https://media.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237.jar
-https://media.forgecdn.net/files/2699/705/mowziesmobs-1.5.4.jar
-https://media.forgecdn.net/files/2818/55/twilightforest-1.12.2-3.10.1013-universal.jar
 https://media.forgecdn.net/files/2727/70/Forgelin-1.8.3.jar
-https://media.forgecdn.net/files/2704/186/llibrary-1.7.19-1.12.2.jar
 https://media.forgecdn.net/files/2580/52/tesla-core-lib-1.12.2-1.0.15.jar
 https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
-https://media.forgecdn.net/files/2699/705/mowziesmobs-1.5.4.jar
