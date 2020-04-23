@@ -54,4 +54,3 @@ https://media.forgecdn.net/files/2580/52/tesla-core-lib-1.12.2-1.0.15.jar
 https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
 https://media.forgecdn.net/files/2518/667/Baubles-1.12-1.5.2.jar
 https://media.forgecdn.net/files/2699/705/mowziesmobs-1.5.4.jar
-https://media.forgecdn.net/files/2818/55/twilightforest-1.12.2-3.10.1013-universal.jar
