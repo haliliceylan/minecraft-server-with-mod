@@ -47,3 +47,5 @@ https://media.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237
 https://media.forgecdn.net/files/2727/70/Forgelin-1.8.3.jar
 https://media.forgecdn.net/files/2580/52/tesla-core-lib-1.12.2-1.0.15.jar
 https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+https://media.forgecdn.net/files/2737/879/TickDynamic-1.12.2-1.0.2.jar
+https://media.forgecdn.net/files/2842/381/fluxnetworks-1.12.2-4.0.14-31.jar
