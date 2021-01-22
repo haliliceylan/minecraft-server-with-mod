@@ -3,7 +3,6 @@ FROM itzg/minecraft-server:latest
 ENV EULA=TRUE \
     VERSION=1.12.2 \
     TYPE=FORGE \
-    FORGEVERSION=14.23.5.2847 \
     ONLINE_MODE=FALSE \
     MEMORY=6G \
     JVM_DD_OPTS="-Dfml.readTimeout=90 -Ddeployment.trace=true -Ddeployment.log=true -Ddeployment.trace.level=all" \
