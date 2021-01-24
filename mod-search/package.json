@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "cli-progress": "^3.8.2",
     "mc-curseforge-api": "^2.2.2",
     "moment": "^2.29.1",
     "yargs": "^16.2.0"

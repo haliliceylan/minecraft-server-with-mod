@@ -1,6 +1,6 @@
 test -f "/first-start" && (rm -rf /data/mods/*.jar; cp -rf /setup/data/* /data; rm -rf /first-start)
 test -f "/setup/http/mods.zip" && rm -rf /setup/http/mods.zip
-test -d "/setup/http/" && rm -rf /setup/http/
+test -d "/setup/http/" && rm -rf /setup/http/*.jar
 cp -rf /data/mods /setup/http/
 zip /setup/http/mods.zip /data/mods/*
 chown -R minecraft:minecraft /data
