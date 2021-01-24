@@ -20,7 +20,6 @@ RUN rm package-lock.json
 RUN npm install
 RUN node search.js
 WORKDIR /data
-RUN mkdir -p /data/mods && cp /mod-search/mods/*.jar /data/mods/
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]
 
 EXPOSE 25566
