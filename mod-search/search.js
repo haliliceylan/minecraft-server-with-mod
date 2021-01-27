@@ -27,27 +27,23 @@ async function getLatestFile(modId, version) {
 
 async function getMods() {
     log(chalk.whiteBright('[+] Getting mod files').bold)
-    // const dependencyBar = new cliProgress.SingleBar({}, cliProgress.Presets.legacy);
-    let deps = []
-    // dependencyBar.start(mods.length, 0)
-    for (let modName of mods) {
-        let modId = modName.split("|")[0]
-        let version = modName.split("|")[1]
-        let latestFile = await getLatestFile(modId, version)
-        if(!latestFile) {
-            let info = await curseforge.getMod(modId);
-            console.log(`${info.name} bulunamadı`)
-            // dependencyBar.increment()
-            continue
+    var i, j, temparray, chunk = 20;
+    for (i = 0, j = mods.length; i < j; i += chunk) {
+        temparray = mods.slice(i, i + chunk);
+        
+        let calls = []
+        for (let i = 0; i < temparray.length; i++) {
+            let modData = temparray[i]
+            calls.push(downloadMod('mods', modData.split("|")[0],modData.split("|")[1]))
         }
-        modFiles.push(latestFile)
-        // dependencyBar.increment()
+        await Promise.all(calls);
+        // do whatever
     }
-    // dependencyBar.stop()
-    mods = mods.concat(deps)
 }
-function downloadMod(outputDir, url) {
+function downloadMod(outputDir, modId, version) {
     return new Promise(async (resolve) => {
+        let modFile = await getLatestFile(modId, version)
+        let url = modFile.download_url
         let splitted = url.split("/")
         let fileName = splitted[splitted.length - 1]
         const { data, headers } = await Axios({ url, method: 'GET', responseType: 'stream' })
@@ -60,23 +56,7 @@ function downloadMod(outputDir, url) {
         })
     })
 }
-
-async function downloadMods() {
-    var i, j, temparray, chunk = 5;
-    for (i = 0, j = modFiles.length; i < j; i += chunk) {
-        temparray = modFiles.slice(i, i + chunk);
-        
-        let calls = []
-        for (let i = 0; i < temparray.length; i++) {
-            let modFile = temparray[i]
-            calls.push(downloadMod('mods', modFile.download_url))
-        }
-        await Promise.all(calls);
-        // do whatever
-    }
-}
 mods = fs.readFileSync('mods.txt').toString().split("\n")
 
 getMods().then(async () => {
-    await downloadMods();
 })
