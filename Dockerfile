@@ -1,4 +1,4 @@
-FROM itzg/minecraft-server:latest
+FROM itzg/minecraft-server:java8
 
 ENV EULA=TRUE \
     VERSION=1.12.2 \
