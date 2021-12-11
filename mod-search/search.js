@@ -42,7 +42,7 @@ async function getMods() {
 }
 function downloadMod(outputDir, modId, version) {
     return new Promise(async (resolve) => {
-        let modFile = await getLatestFile(modId, version)
+        let modFile = await getLatestFile(modId, version.trim())
         let url = modFile.download_url
         let splitted = url.split("/")
         let fileName = splitted[splitted.length - 1]
