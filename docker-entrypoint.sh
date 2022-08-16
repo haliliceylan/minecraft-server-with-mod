@@ -1,4 +1,5 @@
-test -f "/first-start" && (mkdir -p /data/mods && rm -rf /data/mods/*.jar; cp -rf /mod-search/mods/*.jar /data/mods/; rm -rf /first-start)
+test -f "/first-start" && (mkdir -p /data/mods && rm -rf /data/mods/*.jar; cp -rf /setup/data/mods/*.jar /data/mods/; rm -rf /first-start)
+ls -lah /data/mods
 test -f "/setup/http/mods.zip" && rm -rf /setup/http/mods.zip
 test -d "/setup/http/" && rm -rf /setup/http/*.jar
 cp -rf /data/mods /setup/http/mods/

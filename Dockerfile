@@ -13,12 +13,14 @@ RUN touch /first-start
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 WORKDIR /setup
 COPY setup .
-RUN ./download-http.sh
-WORKDIR /mod-search
-COPY mod-search .
-RUN rm package-lock.json
-RUN npm install
-RUN node search.js
+# RUN ./download-http.sh
+# WORKDIR /mod-search
+# COPY mod-search .
+# RUN rm package-lock.json
+# RUN npm install
+# RUN node search.js
+RUN mkdir -p data/mods
+RUN ./download-mods.sh
 WORKDIR /data
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]
 

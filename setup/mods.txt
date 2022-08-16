@@ -1,7 +1,5 @@
 https://edge.forgecdn.net/files/3043/174/jei_1.12.2-4.16.1.302.jar
 https://edge.forgecdn.net/files/2728/585/JustEnoughResources-1.12.2-0.9.2.60.jar
-https://edge.forgecdn.net/files/2701/203/tinkersjei-1.2.jar
-https://edge.forgecdn.net/files/2951/731/jeiintegration_1.12.2-1.6.0.jar
 https://edge.forgecdn.net/files/2919/497/phosphor-forge-mc1.12.2-0.2.7-universal.jar
 https://edge.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar
 https://edge.forgecdn.net/files/2670/570/zerocore-1.12.2-0.1.2.8.jar
@@ -23,7 +21,6 @@ https://edge.forgecdn.net/files/2518/31/bdlib-1.14.3.12-mc1.12.2.jar
 https://edge.forgecdn.net/files/2691/536/environmentaltech-1.12.2-2.0.20.1.jar
 https://edge.forgecdn.net/files/3124/452/EnderIO-1.12.2-5.2.66.jar
 https://edge.forgecdn.net/files/2972/849/EnderCore-1.12.2-0.5.76.jar
-https://edge.forgecdn.net/files/3051/542/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
 https://edge.forgecdn.net/files/2813/586/DarkUtils-1.12.2-1.8.230.jar
 https://edge.forgecdn.net/files/2858/569/plethora-1.12.2-1.2.3.jar
 https://edge.forgecdn.net/files/2992/872/cc-tweaked-1.12.2-1.89.2.jar
@@ -49,8 +46,7 @@ https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-univers
 https://edge.forgecdn.net/files/2737/879/TickDynamic-1.12.2-1.0.2.jar
 https://edge.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar
 https://edge.forgecdn.net/files/2939/529/iceandfire-1.9.1-1.12.2.jar
-https://edge.forgecdn.net/files/3044/416/astralsorcery-1.12.2-1.10.27.jar
 https://edge.forgecdn.net/files/3048/685/mowziesmobs-1.5.8.jar
 https://edge.forgecdn.net/files/2935/745/lycanitesmobs-1.12.2-2.0.7.2.jar
-https://edge.forgecdn.net/files/2574/880/BiblioCraft[v2.4.5][MC1.12.2].jar
-https://edge.forgecdn.net/files/2811/267/EvilCraft-1.12.2-0.10.78.jar
+https://mediafiles.forgecdn.net/files/3278/90/Flan%27s+Mod-1.12.2-5.10.0.jar
+https://mediafiles.forgecdn.net/files/2661/985/ICBM-classic-1.12.2-3.3.0b63.jar
