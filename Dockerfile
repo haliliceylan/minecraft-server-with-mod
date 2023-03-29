@@ -19,7 +19,6 @@ COPY setup .
 # RUN rm package-lock.json
 # RUN npm install
 # RUN node search.js
-RUN mkdir -p data/mods
 RUN ./download-mods.sh
 WORKDIR /data
 ENTRYPOINT [ "sh", "/docker-entrypoint.sh" ]
